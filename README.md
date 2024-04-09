@@ -94,5 +94,4 @@ For more details about each function used in this project, refer to their respec
 - Beautiful Soup: https://www.crummy.com/software/BeautifulSoup/bs4/doc/#documentation-for-the-newest-release
 - Pandas: https://pandas.pydata.org/docs/
 
-Feel free to modify this project according to your needs!
-
+ 
