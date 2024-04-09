@@ -9,6 +9,8 @@ This project is designed to scrape job listings from LinkedIn based on specific 
 This project is a Python script that scrapes job listings from LinkedIn based on a given search query and location. It extracts various information about the job listings, such as job title, company, job description, location, and other relevant details. The script then stores the data in a Google Sheets worksheet.
 
 ```IMPORTANT: Web scraping can frequently violate the terms of service of a website. Always review and respect a website's robots.txt file and its Terms of Service. In this instance, this code should be used ONLY for teaching and hobby purposes. LinkedIn specifically prohibits any data extraction from its website; you can read more here: https://www.linkedin.com/legal/crawling-terms.```
+## Arch
+![Diagramma senza titolo drawio](https://github.com/moscardino1/linkedinAnalytics/assets/9267948/e930925f-5aa4-4e85-bb6a-11739bc8784b)
 
 ## Features
 
