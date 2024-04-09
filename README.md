@@ -1,7 +1,6 @@
-# Dashboard Link
+# Dashboard Link (Keywords set as Data Engineer)
 https://lookerstudio.google.com/reporting/b59e7673-bc6b-4811-b521-5ea353e9264f/page/p_13pn3bm7fd
 <img width="963" alt="Screenshot 2024-04-09 at 3 41 37 PM" src="https://github.com/moscardino1/linkedinAnalytics/assets/9267948/ffe0e989-7a64-4dc7-a911-1f519b2fb3c9">
-
 
 # Job Listings Scraper
 
