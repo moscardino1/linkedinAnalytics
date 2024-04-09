@@ -13,7 +13,7 @@ gc = gspread.authorize(creds)
 num_offer = 50
 city = "London" #Asia #America #Africa #Europe #North America
 # city = ["New York", "Toronto" ]
-
+spreadsheet_url = "....."
 Keyword = "Data Engineer"
 sheetname = 'test_final'
 sheetanalysis = 'test_final'
@@ -196,7 +196,7 @@ for job_listing in job_listings:
 df = pd.DataFrame(job_data)
 
 # Read data from Google Sheets into DataFrame
-spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1ND9JczGggyAuV-4RClz7nD70UqUNGfLImywXpFCns-M/edit#gid=0'
+spreadsheet_url = spreadsheet_url
 output_sheet_name = 'Countries'
 countries_decode = read_sheet_into_dataframe(gc, spreadsheet_url, output_sheet_name)
 
@@ -265,7 +265,8 @@ def read_sheet_into_dataframe(gc, spreadsheet_url, sheet_name):
     return df
 
 # Define the spreadsheet URL and sheet names
-spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1ND9JczGggyAuV-4RClz7nD70UqUNGfLImywXpFCns-M/edit#gid=0'
+spreadsheet_url = spreadsheet_url
+
 output_sheet_name = sheetname
 
 # Read existing data from the Google Sheets worksheet
